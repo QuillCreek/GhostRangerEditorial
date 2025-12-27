@@ -3,19 +3,16 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Ghost Ranger Editorial{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Ghost Ranger Editorial{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
+    </head>
     
-<body>
-
     {% include 'main/navHeader' %}
 
-    <main>
-        {% block content %}
+    <body>
 
         <p style="margin-left: 5%; margin-right: 5%; margin-top: 2%;">The Ghost Ranger Editorial is a Pathfinder and Starfinder themed newspaper 
             dedicated to the Pathfinder Society group located around the Huntsville, AL area. The Ghost Ranger Editorial is 
@@ -23,9 +20,8 @@
             of her Pathfinder characters, an Ancient Elf Rogue with Ranger dedication named Ghost (also nicknamed "the Ghost 
             Ranger").</p>
 
-        {% endblock content %}
-    </main>
+        <p style="margin-left: 5%; margin-right: 5%; text-align: center;"><img src="{% static 'main/images/PathfinderSocietyLogo.JPG' %}" alt="Pathfinder Society Logo"></p>
 
-</body>
+    </body>
 
 </html>

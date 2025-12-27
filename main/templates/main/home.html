@@ -3,24 +3,19 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Ghost Ranger Editorial{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
-</head>
-    
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Ghost Ranger Editorial{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
+    </head>
+        
     {% include 'main/navHeader' %}
 
-    <main>
-        {% block content %}
-        
-        <h1 style="text-align: center;">HOME</h1>
+    <body>
 
-        {% endblock content %}
-    </main>
+        <p><img src="{% static 'main/images/PathfinderSocietyLogo.JPG' %}" alt="Pathfinder Society Logo"></p>
 
-</body>
+    </body>
 
 </html>

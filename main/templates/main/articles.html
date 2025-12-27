@@ -3,25 +3,19 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Ghost Ranger Editorial{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Ghost Ranger Editorial{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
+    </head>
     
-<body>
-
     {% include 'main/navHeader' %}
 
-    <main>
-        {% block content %}
+    <body>
 
         <h1 style="text-align: center;">ARTICLES</h1>
 
-        {% endblock content %}
-    </main>
-
-</body>
+    </body>
 
 </html>

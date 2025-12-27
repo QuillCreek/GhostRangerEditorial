@@ -1,0 +1,12 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+body {
+    background-image: url('../images/dice1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
