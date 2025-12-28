@@ -19,6 +19,7 @@
                 <a href="{% url 'home' %}">Home</a>
                 <a href="{% url 'about' %}">About</a>
                 <a href="{% url 'articles' %}">Articles</a>
+                <a href="{% url 'creativeWorks' %}">Creative Works</a>
             </nav>
         </div>
     </header>

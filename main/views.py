@@ -1,11 +1,14 @@
 from django.shortcuts import render
 
 # Create your views here.
-def home_view(request):
+def home(request):
     return render(request, 'main/home.html')
 
-def about_view(request):
+def about(request):
     return render(request, 'main/about.html')
 
-def articles_view(request):
+def articles(request):
     return render(request, 'main/articles.html')
+
+def creativeWorks(request):
+    return render(request, 'main/creativeWorks.html')
